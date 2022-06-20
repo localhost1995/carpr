@@ -6,7 +6,7 @@ def main():
     string = "Car Price Predictor"
     st.set_page_config(page_title=string, page_icon="🚗") 
     st.title("Car Price Predictor 🚗")
-    st.markdown("##### Are you planning to sell your car !?\n##### So let's try evaluating the price.. 🤖 ")
+    st.markdown("##### Are you planning to sell your car !?\n##### So let's try evaluating the price.. \n##### This Programme created by Lalit...🤖 ")
     st.image(
             "https://imgd.aeplcdn.com/0x0/n/cw/ec/27032/s60-exterior-right-front-three-quarter-3.jpeg",
             width=400, # Manually Adjust the width of the image as per requirement
