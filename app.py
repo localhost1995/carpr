@@ -11,6 +11,7 @@ def main():
             "https://imgd.aeplcdn.com/0x0/n/cw/ec/27032/s60-exterior-right-front-three-quarter-3.jpeg",
             width=400, # Manually Adjust the width of the image as per requirement
         )
+    st.text('Programme created by Lalit....')
     st.write('')
     st.write('')
     years = st.number_input('In which year car was purchased ?',1990, 2021, step=1, key ='year')
@@ -56,6 +57,6 @@ def main():
                 st.success("You can sell the car for {} lakhs 🙌".format(output))
         except:
             st.warning("Opps!! Something went wrong\nTry again")
-    CreatedBy = st.text('Programme created by Lalit....')
+    
 if __name__ == '__main__':
     main()
